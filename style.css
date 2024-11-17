@@ -104,34 +104,3 @@ footer a {
 footer a:hover {
     color: white;
 }
-
-/* Perfil centrado */
-#perfil {
-    background: linear-gradient(to right, #ff4b5c, #ffa751);
-    color: white;
-    text-align: center;
-    padding: 5rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh; /* Ajusta para centrar verticalmente */
-}
-
-.profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid #fff;
-    animation: heartbeat 2s infinite;
-    margin-bottom: 20px;
-}
-
-h1.display-5 {
-    margin-top: 20px;
-}
-
-p.lead {
-    max-width: 600px;
-    margin: 0 auto; /* Centra horizontalmente el texto */
-}
